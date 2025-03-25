@@ -1,0 +1,50 @@
+# ---------[ Xcode ]---------
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcworkspace/xcuserdata
+
+# ---------[ BUILD ]---------
+DerivedData/
+build/
+*.o
+*.d
+*.ipa
+*.app
+
+# ---------[ SWIFT PM ]---------
+.swiftpm
+.build/
+Package.resolved
+
+# ---------[ COCOA PODS ]---------
+Pods/
+Podfile.lock
+
+
+# ---------[ ARCHIVES ]---------
+*.xcarchive
+
+# ---------[ SWIFT PACKAGE INDEX ]---------
+.checkouts/
+Packages/
+Package.resolved
+
+# ---------[ SYSTEM ]---------
+.DS_Store
+*.orig
+
+# ---------[ USER ]---------
+*.env
+*.personal.xcconfig
+
+# Preview assets
+*.xcassets/*.imageset/*.png
+*.xcassets/*.imageset/*.jpg
+
+# ---------[ XCODE CLOUD ]---------
+.xccheckout
+
+# ---------[ TEMP FILES ]---------
+*.orig
+*~.nib
